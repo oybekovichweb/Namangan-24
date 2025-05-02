@@ -3,10 +3,244 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/style.min.css">
+    <title>Namanganliklar 24</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
-    <h1>SCSS</h1>
+    <!-- HEADER START -->
+    <header class="header">
+        <div class="header__hedr container ">
+            <h1>NAMANGANLIKLAR 24</h1>
+            <div class="header__span">
+                <div class="price">
+                    <a href="./pages/list/list.html"><strong>$</strong>
+                        <span>10137.2</span></a>
+                </div>
+                <div class="price">
+                    <a href="./pages/article/article.html"><strong>P</strong>
+                        <span>138.26</span></a>
+                </div>
+            </div>
+            <input class="search" type="text" placeholder="Поиск">
+            <div class="language">
+                <div class="uz">
+                    <p>УЗ</p>
+                </div>
+                <p class="ru">РУ</p>
+            </div>
+            <a href="./pages/contact/contact.html"><button class="btn1">Войти</button></a>
+        </div>
+    </header>
+    <main class="main">
+        <div class="main_container container">
+            <div class="flex">
+                <a href="#">Главное</a>
+                <a href="#">Интересное</a>
+                <a href="#">Экономика</a>
+                <a href="#">Политика</a>
+                <a href="#">Общество</a>
+                <a href="#">Технологии</a>
+                <a href="#">Спорт</a>
+                <a href="#">Культура</a>
+                <a href="#">Происшествия</a>
+                <a href="#">Наука</a>
+            </div>
+            <div class="tiziq container"></div>
+        </div>
+        <div class="main__img--top">
+            <img src="./images/home-banner.png" class="home-banner-img container" alt="#">
+        </div>
+    </main>
+    <!-- HEADER END -->
+
+    <!-- MAIN START -->
+
+    <div class="cards">
+        <div class="cards-container container">
+            <div class="card">
+                <h3>Кандидат на пост канцлера ФРГ Шольц назвал условия коалиционного соглашения</h3>
+                <p>Лидер Социал-демократической партии Германии (СДПГ) и кандидат на должность...</p>
+                <img src="./images/germany-flag.png" width="359px" height="165px" alt="">
+                <div class="card-flex">
+                    <img src="./images/krasnaya-vesna.png" alt="">
+                    <p>ИА Красная Весна 15:55</p>
+                </div>
+            </div>
+            <div class="card">
+                <h3>Ученые доказали экспериментальным путем пользу покровных культур</h3>
+                <p>Новое исследование ученых университета Иллинойса объединяет полевые данные...</p>
+                <img src="./images/wheat.png" width="359px" height="165px" alt="">
+                <div class="card-flex">
+                    <img src="./images/gazeta-ru.png" alt="">
+                    <p>Газета.Ru 12:54</p>
+                </div>
+            </div>
+            <div class="card">
+                <h3>Baidu запустила публичный сервис роботакси Apollo Go в Шанхае</h3>
+                <p>Автопарк Baidu состоит из модифицированных электромобилей EV... </p>
+                <img src="./images/baidu-car.png" width="359px" height="165px" alt="">
+                <div class="card-flex">
+                    <img src="./images/haytek.png" alt="">
+                    <p>Хайтек+ 13:44</p>
+                </div>
+            </div>
+            <div class="card">
+                <h3>Стали известны ёмкости аккумуляторов всех моделей iPhone 13</h3>
+                <p>Во время презентации iPhone 13 Apple придала большое значения...</p>
+                <img src="./images/iphone 13.png" width="359px" height="165px" alt="">
+                <div class="card-flex">
+                    <img src="./images/digger-ru.png" alt="">
+                    <p>Digger.ru 14:25</p>
+                </div>
+            </div>
+            <div class="card">
+                <h3>Nature: ученые смогли доказать природное происхождение коронавируса SARS-CoV-2</h3>
+                <p>Во время презентации iPhone 13 Apple придала большое значение...</p>
+                <img src="./images/labaratory.png" width="359px" height="165px" alt="">
+                <div class="card-flex">
+                    <img src="./images/lenta-ru.png" alt="">
+                    <p>Lenta.ru 10:54</p>
+                </div>
+            </div>
+            <div class="card">
+                <h3>Китайская марка JAC повысила цены на лифтбек и пикап в России</h3>
+                <p>Две модели китайского бренда JAC из пяти, представленных на российском...</p>
+                <img src="./images/jac-car.png" width="359px" height="165px" alt="">
+                <div class="card-flex">
+                    <img src="./images/tarantas-niyu.png" alt="">
+                    <p>Тарантас Ньюс 10:44</p>
+                </div>
+            </div>
+            <div class="header__div--section">
+                <p>Хотите быть в курсе свежих новостей? <br> Включите уведомления!</p>
+                <button class="header__div--btn">Включит</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="mir">
+        <h2 class="container">В мире</h2>
+
+        <div class="mir-container container">
+            <div class="left">
+                <div class="left-card">
+                    <div class="left-flex">
+                        <img class="left-flex_img" src="./images/plain-on-the sky.png" alt="">
+                        <div class="left-flex_right">
+                            <h3>Китайский Чунцин запустил чартерный рейс для студентов до Британии</h3>
+                            <p>Чартерный рейс с 244 китайскими студентами вылетел из города центрального подчинения
+                                Чунцина на юго-западе Китая в британский Манчестер...x</p>
+                            <div class="left-flex-img">
+                                <img src="./images/krasnaya-vesna.png" alt="">
+                                <p>ИА Красная Весна 12:25</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="left-card">
+                    <div class="left-flex">
+                        <img class="left-flex_img" src="./images/angela-merkel.png" alt="">
+                        <div class="left-flex_right">
+                            <h3>В Германии выпустят ограниченную партию плюшевых мишек в образе Меркель</h3>
+                            <p>БЕРЛИН, 19 сентября. / ТАСС/. Знаменитая фабрика по производству плюшевых игрушек в городе Кобург (федеральная земля Бавария) изготовила уникального...</p>
+                            <div class="left-flex-img">
+                                <img src="./images/tass.png" alt="">
+                                <p>ТАСС 11:35</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="left-card">
+                    <div class="left-flex">
+                        <img class="left-flex_img" src="./images/china-town.png" alt="">
+                        <div class="left-flex_right">
+                            <h3>Акции КНР утратили доверие инвесторов. Что делать с бумагами прямо сейчас</h3>
+                            <p>За последние месяцы инвесторы в китайский рынок пережили настоящее потрясение — из-за ужесточения регулирования технологического сектора и критики некоторых...</p>
+                            <div class="left-flex-img">
+                                <img src="./images/rbk.png" alt="">
+                                <p>РБК Инвестиции 09:35</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="left-card">
+                    <div class="left-flex">
+                        <img class="left-flex_img" src="./images/china-flag.png" alt="">
+                        <div class="left-flex_right">
+                            <h3>Китай раскритиковал заключенный Австралией, США и Великобританией антикитайский союз AUKUS</h3>
+                            <p>Не только Франция, которая лишилась многомиллиардного контракта с Австралий, осталась недовольна созданием трехстороннего оборонного альянса AUKUS, пишет Anna-News.info</p>
+                            <div class="left-flex-img">
+                                <img src="./images/solenka-info.png" alt="">
+                                <p>Solenka.info 19:43</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="./pages/list/list.html"><button class="btnall">Показать ещё </button></a>
+            </div>
+            <div class="right">
+                <div class="right-wrapper">
+                    <h3 class="right-h3">Главное</h3>
+                    <div class="right-card">
+                        <h3>В Фергане создадут узбекско-пакистанский университет</h3>
+                        <p>Sputnik Узбекистан 14:09</p>
+                        <div class="right-tiziq"></div>
+                    </div>
+                    <div class="right-card">
+                        <h3>Узбекистан утвердил соглашение о содействии занятости в странах СНГ</h3>
+                        <p>ИА Красная Весна 10:19</p>
+                        <div class="right-tiziq"></div>
+                    </div>
+                    <div class="right-card">
+                        <h3>В Узбекистане увеличиваются очереди за автомобилями UzAuto</h3>
+                        <p>Северная газета (Армянск) 13:50</p>
+                        <div class="right-tiziq"></div>
+                    </div>
+                    <div class="right-card">
+                        <h3>Минтуризма опровергло приостановку выплат за шаги</h3>
+                        <p>Sputnik Узбекистан 14:32</p>
+                    </div>
+                </div>
+                <img src="./images/banner-aside.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- MAIN END -->
+
+    <!-- FOOTER START -->
+    <footer class="footer">
+        <div class="footer__container container">
+            <div class="footer__div--1">
+                <h2 class="footer__h2">NAMANGANLIKLAR 24</h2>
+                <p class="footer__p">Воспроизводство, копирование, <br> использование информации с сайта <br>
+                    «NAMANGANLIKLAR24.UZ» возможно <br> только с предварительного <br> письменного разрешения
+                    редакции.
+                </p>
+            </div>
+            <div class="footer__div--2">
+                <li class="box1">Информация о сайте</li>
+                <li class="box2">Напишите нам</li>
+                <li class="box3">Реклама</li>
+                <li class="box4">Прислать новость</li>
+            </div>
+            <div class="footer__div--3">
+                <li class="box5">Использование материалов</li>
+                <li class="box6">Темы дня</li>
+                <li class="box7">Наша команда</li>
+            </div>
+
+        </div>
+        <div class="tiziqq container"></div>
+        <div class="footer__div--4 container">
+            <h3>Наши <br> социальные сети</h3>
+            <img class="footer__img" src="./images/free-icon-facebook.svg" alt="#">
+            <img class="footer__img" src="./images/free-icon-instagram.svg" alt="#">
+            <img class="footer__img" src="./images/free-icon-telegram.svg" alt="#">
+            <img class="footer__img" src="./images/free-icon-youtube.svg" alt="#">
+        </div>
+    </footer>
+    <!-- FOOTER END -->
 </body>
+
 </html>
